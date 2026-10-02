@@ -1,0 +1,11 @@
+## 필요한 라이브러리
+pip install laspy numpy ezdxf
+
+##  LAS → 5m 지형 격자
+python src/las_to_grid.py
+
+##  DXF → 등고선 CSV
+python src/dxf_to_contour.py
+
+##  지형 데이터 검증
+python src/compare_terrain.py
