@@ -15,7 +15,11 @@ LAS_FILE = os.path.join(
     "옥성임도_2024.las"
 )
 
-OUTPUT_FILE = r"C:\Users\PC\Desktop\terrain_grid_5m_final.csv"
+OUTPUT_FILE = os.path.join(
+    PROJECT_DIR,
+    "results",
+    "terrain_grid_5m_final.csv"
+)
 
 GRID_SIZE = 5.0
 CHUNK_SIZE = 1_000_000
